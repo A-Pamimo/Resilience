@@ -2,7 +2,7 @@ import xarray as xr
 import os
 
 # Load the NetCDF file
-file_path = r'C:\Users\olanrewaju\PycharmProjects\ResilienceStudy\spei\spei06.nc'
+file_path = r'outputNcdf/spei06.nc'
 ds = xr.open_dataset(file_path, engine='netcdf4')
 
 # Specify the variable name (SPEI) you want to extract
